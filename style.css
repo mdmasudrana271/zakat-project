@@ -1,0 +1,159 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.top-section{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(images/top-section-bg.jpg);
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+}
+.top-banner{
+    width: 30%;
+    justify-content: left;
+    margin-left: 5%;
+    padding: 10%;
+}
+.top-heading{
+    font-size: 60px;
+    color: white;
+}
+.top-banner-paragraph{
+    font-size: 20px;
+    color: white;
+}
+.banner-btn{
+    font-size: 25px;
+    padding: 15px 18px;
+    background-color: rgb(223, 22, 56);
+    border-radius: 5px;
+    border: none;
+    color: white;
+}
+.section-tow{
+    margin-top: 5%;
+    height: 60vh;
+    display: flex;
+    padding: 5% 10%;
+    justify-content: space-evenly;
+}
+.second-banner{
+    width: 40%;
+    
+}
+.sec-banner-heading{
+    font-size: 50px;
+}
+.sec-banner-paragraph{
+    font-size: 23px;
+    color: gray;
+    
+}
+.iframe-video{
+    width: 100%;
+    height: 80%;
+    border-radius: 10px;
+    margin-left: 10%;
+}
+.section-three{
+    height: 65vh;
+    display: flex;
+    padding: 10%;
+    justify-content: space-evenly;
+}
+.banner-three{
+    width: 40%;
+}
+.banner-three-img{
+    width: 100%;
+    height: 110%;
+    border-radius: 5px;
+    
+}
+.banner-four{
+    height: 45vh;
+    text-align: center;
+    padding: 0 30%;
+}
+.box-sec-head{
+    height: 100vh;
+}
+.box-section{
+    height: 40vh;
+    display: flex;
+    padding: 0 5%;
+    margin-bottom: 0px;
+    margin-left: 10%;
+}
+.box{
+    
+    width: 35%;
+    height: 70%;
+    display: flex;
+    background-color: rgb(255, 239, 242);
+    padding: 30px;
+    border-radius: 10px;
+    margin-left: 2%;
+    
+}
+.icon{
+    padding: 25px;
+}
+.box-heading{
+    font-size: 25px;
+}
+.box-paragraph{
+    font-size: 20px;
+    color: gray;
+}
+.img{
+    width: 90%;
+    height: 90%;
+    border-radius: 10px;
+}
+.img-section{
+    height: 70vh;
+    display: flex;
+    padding: 0 10%;
+}
+.card-section{
+    height: 90vh;
+    display: flex;
+    margin: 0 10%;
+}
+.card{
+    width: 30%;
+    height: 80%;
+    border-radius: 10px;
+    box-shadow: 3px 3px 3px 3px gray;
+    margin-left: 10px;
+    margin: 15px;
+}
+.card-img{
+    width: 100%;
+    height: 50%;
+    border-radius: 5px;
+}
+.donate-anchor{
+    font-size: 25px;
+    color: red;
+}
+.card-item{
+    padding: 3%;
+}
+footer{
+    background-color: black;
+    text-align: center;
+    height: 15vh;
+    padding: 50px;
+}
+.footer-heading{
+    color: red;
+    font-style: italic;
+    font-weight: 700;
+    
+}
+.footer-paragraph{
+    color: white;
+}
